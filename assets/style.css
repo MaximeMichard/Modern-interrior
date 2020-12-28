@@ -1,0 +1,66 @@
+body{
+    background-color: #181719;
+    color: #ffff;
+}
+
+/* Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 0;
+}
+h5{
+    border: 2px solid #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+li{
+  margin-left: 5rem;  
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* Main */
+.photo1{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.photo2{
+    height: 100px;
+    width: 100px;
+}
+.col-lg-8{
+    position: relative; 
+}
+.description{
+    position: absolute;
+    border: 1px solid #181719;
+    background-color: #181719;
+    bottom: -7rem;
+    right: 50px;
+}
+.name{
+    display: flex;
+    padding: 1rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+.contenu{
+    padding: 5rem 0;
+}
+.btn{
+    color: #fff;
+}
+h3{
+    margin: 10px 0px;
+}
+/* Footer*/
+h6{
+    text-align: center;
+}
+footer{
+    padding: 10rem 0;
+}
